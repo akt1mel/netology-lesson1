@@ -15,10 +15,10 @@ $about = 'Слушатель курса Нетологии';
     <title>About</title>
   </head>
   <body>
-    <p>Имя: <?php echo $name; ?></p>
-    <p>Возраст: <?php echo $age; ?></p>
-    <p>E-mail: <?php echo $email; ?></p>
-    <p>Город: <?php echo $city; ?></p>
-    <p>Обо мне: <?php echo $about; ?></p>
+    <p>Имя: <?= echo $name; ?></p>
+    <p>Возраст: <?= echo $age; ?></p>
+    <p>E-mail: <?= echo $email; ?></p>
+    <p>Город: <?= echo $city; ?></p>
+    <p>Обо мне: <?= echo $about; ?></p>
   </body>
 </html>
